@@ -1,0 +1,27 @@
+-----
+GENERATE SSH KEY
+-----
+ssh-keygen -t ed25519 -C "geeth190903@gmail.com"
+Open the .pub file from .ssh directory.
+Copy the SSH key from the file and close it.
+Add the SSH key to GitHub account.
+-----
+CONFIGURING GIT ON LOCAL(DEV) MACHINE -
+git config --global user.name "Arvind Kumar"
+git config --global user.email "arvind2341989@gmail.com"
+git config --list
+-----
+CREATE UPSTREAM ON LOCAL(DEV) MACHINE TO PUSH CHANGES TO THE REMOTE REPOSITORY -
+git remote add testjavaapprepo git@github.com:QZ-Batch-3/test-java-app.git
+-----
+CREATE AN EMPTY REPOSITORY
+git init
+
+ADD CHANGES TO THE STAGING AREA -
+git add .
+
+COMMITING THE CHANGES ON LOCAL REPOSITORY -
+git commit -m "Added Java Application Directory Structure."
+
+PUSH CHANGES TO THE REMOTE REPOSITORY
+git push testjavaapprepo master:arvind868914
