@@ -7,8 +7,8 @@ Copy the SSH key from the file and close it.
 Add the SSH key to GitHub account.
 -----
 CONFIGURING GIT ON LOCAL(DEV) MACHINE -
-git config --global user.name "Arvind Kumar"
-git config --global user.email "arvind2341989@gmail.com"
+git config --global user.name "Geethanjali Nalli"
+git config --global user.email "geeth190903@gmail.com"
 git config --list
 -----
 CREATE UPSTREAM ON LOCAL(DEV) MACHINE TO PUSH CHANGES TO THE REMOTE REPOSITORY -
